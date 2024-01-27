@@ -1,0 +1,38 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "ESNext",
+		"jsx": "react-jsx",
+		"experimentalDecorators": true,
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"baseUrl": "src",
+		"paths": {
+			"@config": [
+				"../config.json"
+			],
+			"@structures": [
+				"structures/index.ts"
+			],
+			"@structures/*": [
+				"structures/*"
+			],
+			"@utilities": [
+				"utilities/index.ts"
+			],
+			"@utilities/*": [
+				"utilities/*"
+			],
+			"@events": [
+				"events/index.ts"
+			],
+			"@constants": [
+				"constants.ts"
+			],
+			"@lib/*": [
+				"lib/*"
+			]
+		}
+	},
+}
